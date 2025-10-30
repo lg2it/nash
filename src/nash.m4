@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nash : Note as HTML</title>
+  <title>_NASH_TITLE</title>
   <link rel="icon" type="image/svg+xml"
     href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%20viewBox%3D%220%200%20100%20100%22%3E%0A%20%20%3Crect%20width%3D%22100%22%20height%3D%22100%22%20rx%3D%2220%22%20fill%3D%22black%22%2F%3E%0A%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20font-size%3D%2260%22%20font-weight%3D%22bold%22%20text-anchor%3D%22middle%22%20fill%3D%22white%22%20font-family%3D%22Arial%2C%20sans-serif%22%20dominant-baseline%3D%22central%22%3EN.%3C%2Ftext%3E%0A%3C%2Fsvg%3E">
   <style>
@@ -145,12 +145,6 @@
       border: none;
       width: 100%;
       background: transparent;
-      opacity: 0.1;
-      transition: opacity 0.4s;
-    }
-
-    .file-title:hover {
-      opacity: 1.0;
     }
 
     .file-title:empty::before {
@@ -272,13 +266,7 @@
       outline: none;
       font-size: 16px;
       line-height: 1.6;
-      opacity: 0.1;
-      transition: opacity 0.4s;
       /* background: #f4f4f4; */
-    }
-
-    #editor:hover {
-      opacity: 1.0;
     }
 
     #editor p {
@@ -454,7 +442,7 @@
 
     <div id="editorContainer" class="thin-line">
       <div id="editor" contenteditable="true">
-        <p></p>
+_NASH_BODY
       </div>
     </div>
 
