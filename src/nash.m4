@@ -345,7 +345,7 @@
 <body>
 
   <div class="editor-container">
-    <div id="filename" contenteditable="plaintext-only" class="file-title"></div>
+    <div id="filename" contenteditable="plaintext-only" class="file-title">_NASH_FILE_NAME</div>
 
     <div id="toolbar" class="no-print">
       <button onclick="changeBlock('h1')">XL</button>
